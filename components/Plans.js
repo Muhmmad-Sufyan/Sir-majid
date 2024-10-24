@@ -6,7 +6,7 @@ const Plans = () => {
             <div className="bg-black text-white flex flex-col items-center py-8 md:mx-20 sm:mx-10 mx-4 ">
                 {/* Pricing Header */}
                 <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 mb-4">
-                    Pricing
+                Pricing
                 </h1>
                 <p className="text-gray-400 mb-12">Find a plan that fits your needs.</p>
 

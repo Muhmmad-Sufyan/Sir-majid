@@ -9,8 +9,8 @@ const Footer = () => {
                 <div className='sm:w-[80%] w-[95%]'>
 
                     <h1 className='font-bold md:text-3xl  lg::text-4xl mb-10'>Ready to Elevate Your Design Process to the Next Level?</h1>
-                    <p className='font-thin text-[#444343] my-10'>Transform your creative workflow with Artie’s AI-powered tools—automating pricing, timelines, and project briefs with precision so you can focus on what you do best: designing.</p>
-                    <button className="mt-8  py-3 my-5  px-16 bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
+                    <p className='font-thin text-[#999494] my-10'>Transform your creative workflow with Artie’s AI-powered tools—automating pricing, timelines, and project briefs with precision so you can focus on what you do best: designing.</p>
+                    <button className="mt-8  py-3 my-5  px-16 bg-gradient-to-b from-[#2555D411] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
                         Start For Free
                     </button>
                     <p className='text-sm mb-4'>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </p>
 
                 </div>
-                <ul className='w-[16%] gap-16 text-xl flex items-center justify-center flex-col font-bold'>
+                <ul className='w-[16%] gap-8 text-xl flex items-start           justify-center flex-col -mt-44 font-bold'>
                 <Link href='#' className='cursor-pointer text-sm sm:text-lg'>Home</Link>
                 <Link href='#features' className='cursor-pointer text-sm sm:text-lg'>Features</Link>
                 <Link href='/about' className='cursor-pointer text-sm sm:text-lg'>About</Link>

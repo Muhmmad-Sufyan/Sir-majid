@@ -43,7 +43,7 @@ const Confidance = () => {
                 <div className="p-6 rounded-lg border border-white md:col-span-2">
                     <h2 className="md:text-3xl sm:text-2xl text-xl font-semibold mb-2">Get a Clear View of Your Monthly Wins!</h2>
                     <p className="text-gray-400 mb-4">Visualize your monthly progress with clear insights into your workload.</p>
-                    <img src="/s10.png" alt="Monthly Work Overview" className="w-full" />
+                    <img src="/s10.png" alt="Monthly Work Overview" className="w-full md:min-h-[80%]" />
                 </div>
             </div>
         </div>
