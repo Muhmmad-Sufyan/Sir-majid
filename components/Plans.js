@@ -14,7 +14,7 @@ const Plans = () => {
                 <h2 className="text-3xl font-semibold mb-4">Monthly</h2>
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center  sm:gap-2 gap-4 mb-12">
                     {/* Starter Plan */}
-                    <div className="p-6 rounded-3xl border  border-white">
+                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                         <h3 className="text-xl font-semibold text-center">Starter Plan</h3>
                         <p className="mt-2 text-center">$9/mo</p>
                         <p className="mt-4 text-center text-gray-400">Ideal for freelance designers starting with AI.</p>
@@ -28,7 +28,7 @@ const Plans = () => {
                     </div>
 
                     {/* Pro Plan */}
-                    <div className="p-6 rounded-3xl border  border-white">
+                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                         <h3 className="text-xl font-semibold text-center">Pro Plan</h3>
                         <p className="mt-2 text-center">$29/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -44,7 +44,7 @@ const Plans = () => {
                     </div>
 
                     {/* Premium Plan */}
-                    <div className="p-6 rounded-3xl border  border-white">
+                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                         <h3 className="text-xl font-semibold text-center">Premium Plan</h3>
                         <p className="mt-2 text-center">$59/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -64,7 +64,7 @@ const Plans = () => {
                 <h2 className=" font-semibold mb-4"><span className='text-3xl'>Annually</span> <span>-30%</span></h2>
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center  gap-4 sm:gap-2 mb-12">
                     {/* Starter Plan Annually */}
-                    <div className="p-6 rounded-3xl border   border-white">
+                    <div className="p-6 rounded-3xl border   border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                         <h3 className="text-xl font-semibold text-center">Starter Plan</h3>
                         <p className="mt-2 text-center">$7/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -80,7 +80,7 @@ const Plans = () => {
                     </div>
 
                     {/* Pro Plan Annually */}
-                    <div className="p-6 rounded-3xl border  border-white">
+                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                         <h3 className="text-xl font-semibold text-center">Pro Plan</h3>
                         <p className="mt-2 text-center">$24/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -96,7 +96,7 @@ const Plans = () => {
                     </div>
 
                     {/* Premium Plan Annually */}
-                    <div className="p-6 rounded-3xl border  border-white">
+                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                         <h3 className="text-xl font-semibold text-center">Premium Plan</h3>
                         <p className="mt-2 text-center">$49/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -119,7 +119,7 @@ const Plans = () => {
                 </h1>
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center justify-center pt-2 gap-2     ">
                     {/* Starter Plan */}
-                    <div className="p-6 text-center border-[#2555D4] ">
+                    <div className="p-6 text-center border-[#2555D4] " >
                         <h2 className="text-xl font-semibold">Starter Plan</h2>
                         <p className="mt-2">$9/mo</p>
                         <p className="mt-4 text-gray-400">
@@ -129,7 +129,7 @@ const Plans = () => {
                     </div>
 
                     {/* Pro Plan */}
-                    <div className="p-6 text-center border-[#2555D4]">
+                    <div className="p-6 text-center border-[#2555D4]" >
                         <h2 className="text-xl font-semibold">Pro Plan</h2>
                         <p className="mt-2">$29/mo</p>
                         <p className="mt-4 text-gray-400">
@@ -139,7 +139,7 @@ const Plans = () => {
                     </div>
 
                     {/* Premium Plan */}
-                    <div className="p-6 text-center border-[#2555D4]">
+                    <div className="p-6 text-center border-[#2555D4]" >
                         <h2 className="text-xl font-semibold">Premium Plan</h2>
                         <p className="mt-2">$59/mo</p>
                         <p className="mt-4 text-gray-400">

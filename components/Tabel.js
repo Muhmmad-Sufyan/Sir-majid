@@ -80,13 +80,45 @@ const Tabel = () => {
                             <td className="sm:p-4 p-2 text-center">✔</td>
                             <td className="sm:p-4 p-2 text-center">✔</td>
                         </tr>
+                        <tr>
+                            <td className="sm:p-4 p-2 flex items-center gap-1">
+                            Total Completed Projects
+                            </td>
+                            <td className="sm:p-4 p-2 text-center">-</td>
+                            <td className="sm:p-4 p-2 text-center">✔</td>
+                            <td className="sm:p-4 p-2 text-center">✔</td>
+                        </tr>
+                        <tr>
+                            <td className="sm:p-4 p-2 flex items-center gap-1">
+                            Total Income Generated
+                            </td>
+                            <td className="sm:p-4 p-2 text-center">-</td>
+                            <td className="sm:p-4 p-2 text-center">✔</td>
+                            <td className="sm:p-4 p-2 text-center">✔</td>
+                        </tr>
+                        <tr>
+                            <td className="sm:p-4 p-2 flex items-center gap-1">
+                            Total Clients Served
+                            </td>
+                            <td className="sm:p-4 p-2 text-center">-</td>
+                            <td className="sm:p-4 p-2 text-center">✔</td>
+                            <td className="sm:p-4 p-2 text-center">✔</td>
+                        </tr>
+                        <tr>
+                            <td className="sm:p-4 p-2 flex items-center gap-1">
+                            Top Earning Services
+                            </td>
+                            <td className="sm:p-4 p-2 text-center">-</td>
+                            <td className="sm:p-4 p-2 text-center">✔</td>
+                            <td className="sm:p-4 p-2 text-center">✔</td>
+                        </tr>
 
                     </tbody>
                 </table>
             </div>
 
             <div className="flex md:justify-end gap-3 flex-col md:flex-row mx-4 md:mx-0 mt-10 gasm:p-4 p-2">
-                <button className="md:px-20 sm:px-16 px-10 py-3 rounded-xl bg-gray-600 text-white">Start for free</button>
+                <button className="md:px-20 sm:px-16 px-10 py-3 rounded-xl bg-white text-black">Start for free</button>
                 <button className="md:px-20 sm:px-16 px-10 py-3 rounded-xl bg-white text-black">Start now</button>
                 <button className="md:px-20 sm:px-16 px-10 py-3 rounded-xl bg-blue-600 text-white">Start now</button>
             </div>

@@ -9,7 +9,7 @@ const Confidance = () => {
 
             <div className="grid gap-6 sm:grid-cols-3 grid-cols-1 text-center ">
                 {/* Card 1 */}
-                <div className="p-6 rounded-lg border md:col-span-2 border-white ">
+                <div className="p-6 rounded-lg border md:col-span-2 border-white " style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                     <h2 className="md:text-3xl sm:text-2xl text-xl font-semibold mb-2">See All Your Progress in One Place!</h2>
                     <p className="text-gray-400 mb-4">Track everything you've achieved with clear insights into your projects, income, and clients—all in one place.</p>
                     <div className="flex justify-between">
@@ -19,7 +19,7 @@ const Confidance = () => {
                 </div>
 
                 {/* Card 2 */}
-                <div className="p-6 rounded-lg border border-white  ">
+                <div className="p-6 rounded-lg border border-white  " style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                     <h2 className="md:text-3xl sm:text-2xl text-xl font-semibold mb-2">Show What You're Good At</h2>
                     <p className="text-gray-400 mb-4">Unleash your potential by focusing on your top services to maximize success.</p>
                   <div>
@@ -28,7 +28,7 @@ const Confidance = () => {
                 </div>
 
                 {/* Card 3 */}
-                <div className="p-6 rounded-lg border border-white ">
+                <div className="p-6 rounded-lg border border-white " style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                     <h2 className="md:text-3xl sm:text-2xl text-xl font-semibold mb-2">Easily Track Feedback</h2>
                     <p className="text-gray-400 mb-4">Streamline client feedback collection to enhance your performance and showcase testimonials in one place.</p>
                     <div className="flex items-center">
@@ -40,7 +40,7 @@ const Confidance = () => {
                 </div>
 
                 {/* Card 4 */}
-                <div className="p-6 rounded-lg border border-white md:col-span-2">
+                <div className="p-6 rounded-lg border border-white md:col-span-2" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                     <h2 className="md:text-3xl sm:text-2xl text-xl font-semibold mb-2">Get a Clear View of Your Monthly Wins!</h2>
                     <p className="text-gray-400 mb-4">Visualize your monthly progress with clear insights into your workload.</p>
                     <img src="/s10.png" alt="Monthly Work Overview" className="w-full md:min-h-[80%]" />
