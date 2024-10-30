@@ -2,6 +2,9 @@ import React from 'react'
 
 const Hero = () => {
     return (
+      <div>
+
+
         <div className="contanier-xl mx-auto flex flex-col justify-center items-center mt-16 md:mt-32 px-4 lg:px-20">
         <div className="text-center md:mx-20 mx-10 sm:mx-16 ">
           <h1 className="text-lg xs:text-2xl sm:text-3xl md:text-4xl lg:text-6xl  2xl:text-7xl font-[400] text-transparent bg-clip-text bg-gradient-to-r from-[#F5F5F5] via-blue-500 to-[#2555D4] md:mb-10 mb-5 md:w-[75%] w-[100%] md:mx-auto mx-0" >
@@ -15,7 +18,8 @@ const Hero = () => {
           </button>
         </div>
         
-        <div className=''>
+      </div>
+        <div className='contanier w-[80%] md:w-[75%] mx-auto'>
           <img src="/s1.png" alt="Main Visual" className="c my-20" />
         </div>
       </div>
