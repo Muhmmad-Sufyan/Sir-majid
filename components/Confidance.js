@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const Confidance = () => {
     return (
@@ -11,7 +11,7 @@ const Confidance = () => {
                 {/* Card 1 */}
                 <div className="p-6 rounded-3xl border border-white md:col-span-2 bg-gradient-to-b from-blue-500/10 via-blue-500/5 to-blue-500/20">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-[700] mb-2">See All Your Progress in One Place!</h2>
-                    <p className="text-gray-400 mb-4">Track everything you've achieved with clear insights into your projects, income, and clients—all in one place.</p>
+                    <p className="text-gray-400 mb-4">Track everything you&apos;ve achieved with clear insights into your projects, income, and clients—all in one place.</p>
                     <div className="flex justify-center ">
                         <img src="/s8.png" className="  w-full " alt="Progress chart" />
                     </div>
@@ -19,7 +19,7 @@ const Confidance = () => {
 
                 {/* Card 2 */}
                 <div className="p-6 rounded-3xl border border-white bg-gradient-to-b from-blue-500/10 via-blue-500/5 to-blue-500/20">
-                    <h2 className="text-xl sm:text-2xl md:text-3xl font-[700] mb-2">Show What You're Good At</h2>
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-[700] mb-2">Show What You&apos;re Good At</h2>
                     <p className="text-gray-400 mb-4">Unleash your potential by focusing on your top services to maximize success.</p>
                     <div className="flex justify-center">
                         <img src="/s9.png" className="  w-full" alt="Top services" />
