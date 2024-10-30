@@ -11,20 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        
       },
       fontFamily: {
-        chocolates: ["TT Chocolates Trl", "sans-serif"],
-      },
-      container: {
-        center: true,
-        padding: "1rem",
-        screens: {
-          sm: "640px",
-          md: "768px",
-          lg: "1024px",
-          xl: "1280px",
-          // 2xl is intentionally omitted here
-        },
+        chocolates: ['TT Chocolates Trl', 'sans-serif'],
       },
     },
   },
@@ -32,20 +22,3 @@ const config: Config = {
 };
 export default config;
 
-// module.exports = {
-//   theme: {
-//     extend: {},
-//     container: {
-//       center: true,
-//       padding: '1rem',
-//       screens: {
-//         sm: '640px',
-//         md: '768px',
-//         lg: '1024px',
-//         xl: '1280px',
-//         // 2xl is intentionally omitted here
-//       },
-//     },
-//   },
-//   plugins: [],
-// };
