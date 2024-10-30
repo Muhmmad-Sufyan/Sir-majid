@@ -3,18 +3,20 @@ import React from 'react'
 const Plans = () => {
     return (
         <>
-            <div className="contanier md:w-[80%] 2xl:w-[75%] md:mx-auto bg-black text-white flex flex-col items-center py-8  sm:mx-10 mx-4  ">
+            <div className="contanier-xl md:w-[80%] 2xl:w-[75%] md:mx-auto bg-black text-white flex flex-col items-center py-8  sm:mx-10 mx-4  ">
                 {/* Pricing Header */}
-                <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 mb-4">
-                Pricing
+                <h1 className="text-5xl pb-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F5F5F5] to-[#2555D4] mb-4">
+                    Pricing
                 </h1>
+                {/* background: linear-gradient(90deg, #F5F5F5 0%, #2555D4 86.96%);
+ */}
                 <p className="text-gray-400 mb-12">Find a plan that fits your needs.</p>
 
                 {/* Monthly Section */}
                 <h2 className="text-3xl font-semibold mb-4">Monthly</h2>
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center  sm:gap-2 gap-4 2xl:gap-40 mb-12">
                     {/* Starter Plan */}
-                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
+                    <div className="p-6 rounded-3xl border  border-white" style={{ background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)' }}>
                         <h3 className="text-xl font-semibold text-center">Starter Plan</h3>
                         <p className="mt-2 text-center">$9/mo</p>
                         <p className="mt-4 text-center text-gray-400">Ideal for freelance designers starting with AI.</p>
@@ -28,7 +30,7 @@ const Plans = () => {
                     </div>
 
                     {/* Pro Plan */}
-                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
+                    <div className="p-6 rounded-3xl border  border-white" style={{ background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)' }}>
                         <h3 className="text-xl font-semibold text-center">Pro Plan</h3>
                         <p className="mt-2 text-center">$29/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -44,7 +46,7 @@ const Plans = () => {
                     </div>
 
                     {/* Premium Plan */}
-                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
+                    <div className="p-6 rounded-3xl border  border-white" style={{ background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)' }}>
                         <h3 className="text-xl font-semibold text-center">Premium Plan</h3>
                         <p className="mt-2 text-center">$59/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -64,7 +66,7 @@ const Plans = () => {
                 <h2 className=" font-semibold mb-4"><span className='text-3xl'>Annually</span> <span>-30%</span></h2>
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center 2xl:gap-40  gap-4 sm:gap-2 mb-12">
                     {/* Starter Plan Annually */}
-                    <div className="p-6 rounded-3xl border   border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
+                    <div className="p-6 rounded-3xl border   border-white" style={{ background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)' }}>
                         <h3 className="text-xl font-semibold text-center">Starter Plan</h3>
                         <p className="mt-2 text-center">$7/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -80,7 +82,7 @@ const Plans = () => {
                     </div>
 
                     {/* Pro Plan Annually */}
-                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
+                    <div className="p-6 rounded-3xl border  border-white" style={{ background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)' }}>
                         <h3 className="text-xl font-semibold text-center">Pro Plan</h3>
                         <p className="mt-2 text-center">$24/mo</p>
                         <p className="mt-4 text-center text-gray-400">
@@ -96,7 +98,7 @@ const Plans = () => {
                     </div>
 
                     {/* Premium Plan Annually */}
-                    <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
+                    <div className="p-6 rounded-3xl border  border-white" style={{ background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)' }}>
                         <h3 className="text-xl font-semibold text-center">Premium Plan</h3>
                         <p className="mt-2 text-center">$49/mo</p>
                         <p className="mt-4 text-center text-gray-400">

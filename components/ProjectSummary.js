@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectSummary = () => {
     return (
-        <div className="contanier mx-auto md:w-[90%] 2xl:w-[75%] ">
+        <div className="contanier-xl mx-auto md:w-[90%] 2xl:w-[75%] ">
         <div
           className="md:mx-20  border-[1px] rounded-2xl p-8 flex gap-1 my-10 md:flex-row flex-col"
           style={{
