@@ -22,7 +22,7 @@ const Plans = () => {
                             <li>Basic AI tools</li>
                             <li>Email support</li>
                         </ul>
-                        <button className="mt-8 px-6 py-2 border-2 bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
+                        <button className="mt-8 px-6 py-1 border-[1px] bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-md hover:opacity-90 transition duration-300">
                             Try for free
                         </button>
                     </div>
@@ -38,7 +38,7 @@ const Plans = () => {
                             <li>Customized Tools</li>
                             <li>Priority email support</li>
                         </ul>
-                        <button className="mt-8 px-6 py-2 border-2 bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
+                        <button className="mt-8 px-6 py-1 border-[1px] bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-md hover:opacity-90 transition duration-300">
                             Get started
                         </button>
                     </div>
@@ -54,7 +54,7 @@ const Plans = () => {
                             <li>Full customized tools</li>
                             <li>24/7 support</li>
                         </ul>
-                        <button className="mt-8 px-6 py-2 border-2 bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
+                        <button className="mt-8 px-6 py-1 border-[1px] bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-md hover:opacity-90 transition duration-300">
                             Try for free
                         </button>
                     </div>
@@ -74,7 +74,7 @@ const Plans = () => {
                             <li>Basic AI tools</li>
                             <li>Email support</li>
                         </ul>
-                        <button className="mt-8 px-6 py-2 border-2 bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
+                        <button className="mt-8 px-6 py-1 border-[1px] bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-md hover:opacity-90 transition duration-300">
                             Try for free
                         </button>
                     </div>
@@ -90,7 +90,7 @@ const Plans = () => {
                             <li>Customized Tools</li>
                             <li>Priority email support</li>
                         </ul>
-                        <button className="mt-8 px-6 py-2 border-2 bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
+                        <button className="mt-8 px-6 py-1 border-[1px] bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-md hover:opacity-90 transition duration-300">
                             Get started
                         </button>
                     </div>
@@ -106,12 +106,15 @@ const Plans = () => {
                             <li>Full customized tools</li>
                             <li>24/7 support</li>
                         </ul>
-                        <button className="mt-8 px-6 py-2 border-2 bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
+                        <button className="mt-8 px-6 py-1 border-[1px] bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-md hover:opacity-90 transition duration-300">
                             Try for free
                         </button>
                     </div>
                 </div>
             </div>
+
+            {/* background: linear-gradient(180deg, rgba(37, 85, 212, 0) 0%, #1B57DF 100%);
+ */}
 
             <div className="contanier md:w-[80%] 2xl:w-[75%] md:mx-auto md:my-20 my-5  sm:ml-2 ml-0" id='features'>
                 <h1 className="text-3xl sm:text-5xl text-center md:text-6xl mb-10 font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-500 to-indigo-500">
@@ -125,7 +128,7 @@ const Plans = () => {
                         <p className="mt-4 text-gray-400">
                             Ideal for freelance designers starting with AI.
                         </p>
-                        <button className="mt-6 bg-white text-black py-2 px-10 rounded-md">Start for free</button>
+                        <button className="mt-6 bg-white text-black py-1 px-10 rounded-md">Start for free</button>
                     </div>
 
                     {/* Pro Plan */}
@@ -135,7 +138,7 @@ const Plans = () => {
                         <p className="mt-4 text-gray-400">
                             Created for professionals requiring advanced customization.
                         </p>
-                        <button className="mt-6 bg-white text-black py-2 px-10 rounded-md">Start now</button>
+                        <button className="mt-6 bg-white text-black py-1 px-10 rounded-md">Start now</button>
                     </div>
 
                     {/* Premium Plan */}
@@ -145,7 +148,7 @@ const Plans = () => {
                         <p className="mt-4 text-gray-400">
                             Designed for professionals needing full customization.
                         </p>
-                        <button className="mt-6 bg-blue-600 text-white py-2 px-10 rounded-md">Start now</button>
+                        <button className="mt-6 bg-blue-600 text-white py-1 px-10 rounded-md">Start now</button>
                     </div>
                 </div>
             </div>

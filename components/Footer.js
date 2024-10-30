@@ -10,7 +10,7 @@ const Footer = () => {
 
                     <h1 className='font-bold md:text-3xl  lg::text-4xl mb-10'>Ready to Elevate Your Design Process to the Next Level?</h1>
                     <p className='font-thin text-[#999494] my-10'>Transform your creative workflow with Artie’s AI-powered tools—automating pricing, timelines, and project briefs with precision so you can focus on what you do best: designing.</p>
-                    <button className="mt-8  py-3 my-5  px-16 bg-gradient-to-b from-[#2555D411] to-[#1B57DF] text-white font-semibold rounded-full hover:opacity-90 transition duration-300">
+                    <button className="mt-8 border-[0.5px] py-3 my-5  px-16 bg-gradient-to-b from-[#2555D400] to-[#1B57DF] text-white font-semibold rounded-md hover:opacity-90 transition duration-300">
                         Start For Free
                     </button>
                     <p className='text-sm mb-4'>
