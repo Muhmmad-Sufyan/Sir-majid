@@ -3,15 +3,16 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className='py-10 lg:mx-40 md:md:mx-44 gap-5 flex justify-between items-center'>
-            <img src='/logo.png' className='md:w-auto w-[40%]' />
-
-            <ul className='flex sm:gap-20 gap-5 w-[60%] font-bold'>
-                <Link href='#' className='cursor-pointer text-sm sm:text-lg'>Home</Link>
-                <Link href='#features' className='cursor-pointer text-sm sm:text-lg'>Features</Link>
-                <Link href='#about' className='cursor-pointer text-sm sm:text-lg'>About</Link>
-            </ul>
-        </div>
+        <div className="container mx-auto py-5  lg:px-20 flex justify-between items-center gap-5">
+        <img src="/logo.png" className="md:w-[16%] w-[40%] pl-5 2xl:w-[30%]" alt="Logo"  />
+      
+        <ul className="flex gap-5 sm:gap-10 md:gap-20 w-auto md:w-[60%] text-[13px] font-[500] xl:text-2xl">
+          <Link href="#" className="cursor-pointer text-sm  ">Home</Link>
+          <Link href="#features" className="cursor-pointer text-sm  ">Features</Link>
+          <Link href="#about" className="cursor-pointer text-sm  ">About</Link>
+        </ul>
+      </div>
+      
     )
 }
 
