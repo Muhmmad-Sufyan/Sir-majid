@@ -5,7 +5,7 @@ const Tabel = () => {
           <>
           
           
-        <div className="contanier-xl md:w-[80%] 2xl:w-[75%] md:mx-auto mx-4">
+        <div className="contanier md:w-[80%] 2xl:w-[75%] md:mx-auto mx-4">
             <h2 className="text-2xl lg:text-4xl font-semibold text-white  mb-10">Category</h2>
 
             {/* Table */}

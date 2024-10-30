@@ -5,7 +5,7 @@ const Hero = () => {
       <div>
 
 
-        <div className="contanier-xl mx-auto flex flex-col justify-center items-center mt-16 md:mt-32 px-4 lg:px-20">
+        <div className="contanier mx-auto flex flex-col justify-center items-center mt-16 md:mt-32 px-4 lg:px-20">
         <div className="text-center md:mx-20 mx-10 sm:mx-16 ">
           <h1 className="text-lg xs:text-2xl sm:text-3xl md:text-4xl lg:text-6xl  2xl:text-7xl font-[400] text-transparent bg-clip-text bg-gradient-to-r from-[#F5F5F5] via-blue-500 to-[#2555D4] md:mb-10 mb-5 md:w-[75%] w-[100%] md:mx-auto mx-0" >
             Own Your Freelance Journey, Smarter with Artie

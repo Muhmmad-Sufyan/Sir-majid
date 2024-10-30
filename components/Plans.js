@@ -3,7 +3,7 @@ import React from 'react'
 const Plans = () => {
     return (
         <>
-            <div className="contanier-xl md:w-[80%] 2xl:w-[75%] md:mx-auto bg-black text-white flex flex-col items-center py-8  sm:mx-10 mx-4  ">
+            <div className="contanier md:w-[80%] 2xl:w-[75%] md:mx-auto bg-black text-white flex flex-col items-center py-8  sm:mx-10 mx-4  ">
                 {/* Pricing Header */}
                 <h1 className="text-5xl pb-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F5F5F5] to-[#2555D4] mb-4">
                     Pricing
