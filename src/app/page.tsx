@@ -2,7 +2,7 @@ import { Confidance, DiveIn, Footer, Header, Hero, Plans, ProjectSummary, Tabel 
 export default function Home() {
   return (
     <div className=" ">
-      <div className='bg-[url(/s.png)] bg-no-repeat font-chocolates' style={{backgroundSize:'100% 50%',fontFamily:''}}>
+      <div className='bg-[url(/s.png)] bg-no-repeat font-chocolates' style={{backgroundSize:'100% 45%',fontFamily:''}}>
 
       <Header />
       <Hero />
