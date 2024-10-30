@@ -2,9 +2,9 @@ import React from 'react'
 
 const ProjectSummary = () => {
     return (
-        <div className=" max-w-full min-w-md ">
+        <div className="contanier mx-auto md:w-[90%] 2xl:w-[75%] ">
         <div
-          className="md:mx-20 mx-4 border-[1px] rounded-2xl p-8 flex gap-1 my-10 md:flex-row flex-col"
+          className="md:mx-20  border-[1px] rounded-2xl p-8 flex gap-1 my-10 md:flex-row flex-col"
           style={{
             background:
               'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)',

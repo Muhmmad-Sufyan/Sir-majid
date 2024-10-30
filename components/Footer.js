@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='md:w-[90%] w-[95%] mx-auto rounded-2xl border-[1px] mt-20 mb-10 p-8 text-white' style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
+        <div className='contanier md:w-[80%] 2xl:w-[75%] md:mx-auto rounded-2xl border-[1px] mt-20 mb-10 p-8 text-white' style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
             <img src='/logo.png' />
             <div className='flex sm:flex-row flex-col items-center  gap-20'>
                 <div className='sm:w-[80%] w-[95%]'>
