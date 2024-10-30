@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         
         <div className=''>
-          <img src="/s1.png" alt="Main Visual" className="w-[89%] mx-auto my-20" />
+          <img src="/s1.png" alt="Main Visual" className="c my-20" />
         </div>
       </div>
       
