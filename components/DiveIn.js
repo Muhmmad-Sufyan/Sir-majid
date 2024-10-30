@@ -2,7 +2,7 @@ import React from 'react'
 
 const DiveIn = () => {
   return (
-    <div className="contanier md:w-[80%] 2xl:w-[75%] md:mx-auto mx-4 border border-gray-300 rounded-2xl " style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
+    <div className="contanier md:w-[80%] 2xl:w-[72%] md:mx-auto mx-4 border border-gray-300 rounded-2xl " style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
     <h1 className="text-2xl md:text-3xl lg:text-4xl text-center font-semibold mb-4 pt-5">Ready to Dive In?</h1>
     <p className="text-justify md:text-center text-gray-400 md:w-[80%] w-full mx-auto mb-6">
         Get ready to experience the power of Artie’s detailed, designer-focused questions. Each question is crafted to uncover the specifics of your creative process, ensuring that every project runs smoothly from start to finish. Explore how these tailored insights can help you deliver exceptional results, time after time.

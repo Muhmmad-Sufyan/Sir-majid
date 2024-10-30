@@ -12,7 +12,7 @@ const Plans = () => {
 
                 {/* Monthly Section */}
                 <h2 className="text-3xl font-semibold mb-4">Monthly</h2>
-                <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center  sm:gap-2 gap-4 mb-12">
+                <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center  sm:gap-2 gap-4 2xl:gap-40 mb-12">
                     {/* Starter Plan */}
                     <div className="p-6 rounded-3xl border  border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                         <h3 className="text-xl font-semibold text-center">Starter Plan</h3>
@@ -62,7 +62,7 @@ const Plans = () => {
 
                 {/* Annual Section */}
                 <h2 className=" font-semibold mb-4"><span className='text-3xl'>Annually</span> <span>-30%</span></h2>
-                <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center  gap-4 sm:gap-2 mb-12">
+                <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center 2xl:gap-40  gap-4 sm:gap-2 mb-12">
                     {/* Starter Plan Annually */}
                     <div className="p-6 rounded-3xl border   border-white" style={{background: 'linear-gradient(195.05deg, rgba(37, 85, 212, 0.1) 0%, rgba(37, 85, 212, 0.02) 50%, rgba(37, 85, 212, 0.06) 100%)'}}>
                         <h3 className="text-xl font-semibold text-center">Starter Plan</h3>
